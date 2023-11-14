@@ -1,4 +1,4 @@
-# Mini Project 11
+# Individual Project
 
 ## Overview
 "**Data Processing Pipeline**" is designed to create an effective data pipeline using Databricks, focusing on extracting, transforming, and visualizing movie rating data from Fandango. The project incorporates Python libraries and Databricks tools to facilitate efficient data handling and analysis.

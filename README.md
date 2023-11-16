@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/Individual_Project_3_Yabei/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Individual_Project_3_Yabei/actions/workflows/cicd.yml)
 # Individual Project
 
 ## Overview

@@ -1,31 +1,15 @@
 # Individual Project
 
 ## Overview
-"**Data Processing Pipeline**" is designed to create an effective data pipeline using Databricks, focusing on extracting, transforming, and visualizing movie rating data from Fandango. The project incorporates Python libraries and Databricks tools to facilitate efficient data handling and analysis.
+This project demonstrates a robust ETL (Extract, Transform, Load) pipeline using Databricks, Delta Lake, and Spark SQL. The primary goal is to efficiently extract data from a specified source, transform it using Spark SQL, and load it into Delta Lake for storage and further analysis. The project also includes data validation, error handling, and a visualization component to represent the transformed data.
 
-### Key Components
-
-#### Data Extraction:
-- Retrieves movie rating data from Fandango via HTTP requests.
-- Stores the retrieved data in the Databricks FileStore for further processing.
-
-#### Databricks Environment Configuration:
-- Sets up the Databricks environment using environment variables for authentication (e.g., `SERVER_HOSTNAME` and `ACCESS_TOKEN`).
-
-#### Data Transformation and Storage:
-- Converts the raw data into a Spark dataframe.
-- Transforms the dataframe into a Delta Lake Table, stored in the Databricks environment.
-
-#### Data Analysis and Visualization:
-- Performs data analysis using Spark SQL on the transformed data.
-- Visualizes the analysis results through various data visualization techniques.
-
-#### File Path Validation for Testing:
-- Includes a method to check the existence of file paths in the Databricks FileStore.
-- Validates the connection to the Databricks API as a part of the pipeline's testing process.
-
-#### Automated Trigger via GitHub Push:
-- Implements an automated trigger with the Databricks API to start a pipeline run in response to a push in the GitHub repository.
+Features
+- **ETL Operations**: Utilizes Databricks notebooks for efficient ETL operations.
+- **Delta Lake Integration**: Demonstrates the use of Delta Lake for advanced data storage capabilities.
+- **Spark SQL Transformations**: Employs Spark SQL for effective data transformations.
+- **Data Validation and Error Handling**: Ensures the integrity of the data through systematic checks and robust error handling mechanisms.
+- **Visualization**: Provides a clear visual representation of the data post-transformation.
+- **Automated Trigger**: Includes an automated mechanism to initiate the ETL pipeline.
 
 ### Preparation Steps:
 1. Create a Databricks workspace on a cloud platform like Azure.
@@ -42,6 +26,9 @@
 
 ## Requirements
 The project involves developing a data pipeline in Databricks, incorporating at least one data source and one data sink.
+
+## Demo Video
+A comprehensive video demonstration of the ETL pipeline is available  [here](). This video walks you through the entire process, showcasing the automated trigger and the key aspects of our pipeline, along with the conclusions and actionable recommendations for the management team.
 
 ## Job pipeline
 ![etl](https://github.com/nogibjj/Mini_Project11_Yabei/assets/143656459/57c258ce-ef7f-4970-9d8c-6ec3aeca6e22)

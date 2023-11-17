@@ -29,7 +29,7 @@ Features
 The project involves developing a data pipeline in Databricks, incorporating at least one data source and one data sink.
 
 ## Demo Video
-A comprehensive video demonstration of the ETL pipeline is available  [here](). This video walks you through the entire process, showcasing the automated trigger and the key aspects of our pipeline, along with the conclusions and actionable recommendations for the management team.
+A comprehensive video demonstration of the ETL pipeline is available  [here](https://youtu.be/2ecaeSs04ho). This video walks you through the entire process, showcasing the automated trigger and the key aspects of our pipeline, along with the conclusions and actionable recommendations for the management team.
 
 ## Job pipeline
 ![etl](https://github.com/nogibjj/Mini_Project11_Yabei/assets/143656459/57c258ce-ef7f-4970-9d8c-6ec3aeca6e22)
